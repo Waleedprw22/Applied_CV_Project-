@@ -1,0 +1,100 @@
+# Completely generated these parameters using evolutionary hyper parameter tuning, specific to my dataset
+
+
+lr0: 0.01
+lrf: 0.01
+momentum: 0.911
+weight_decay: 0.00044
+warmup_epochs: 3
+warmup_momentum: 0.654
+warmup_bias_lr: 0.104
+box: 0.0435
+cls: 0.554
+cls_pw: 1.15
+obj: 0.983
+obj_pw: 1.15
+iou_t: 0.2
+anchor_t: 4.04
+fl_gamma: 0
+hsv_h: 0.0139
+hsv_s: 0.647
+hsv_v: 0.52
+degrees: 0
+translate: 0.095
+scale: 0.465
+shear: 0
+perspective: 0
+flipud: 0
+fliplr: 0.5
+mosaic: 1
+mixup: 0
+copy_paste: 0
+
+
+
+# The parameters below are the ones I got after redefining the fitness function. These perform worse than the ones above.
+'''
+lr0: 0.00921
+lrf: 0.01
+momentum: 0.911
+weight_decay: 0.00052
+warmup_epochs: 3.21
+warmup_momentum: 0.906
+warmup_bias_lr: 0.0992
+box: 0.05
+cls: 0.464
+cls_pw: 0.96
+obj: 0.978
+obj_pw: 0.831
+iou_t: 0.2
+anchor_t: 4.23
+fl_gamma: 0
+hsv_h: 0.015
+hsv_s: 0.74
+hsv_v: 0.391
+degrees: 0
+translate: 0.1
+scale: 0.576
+shear: 0
+perspective: 0
+flipud: 0
+fliplr: 0.5
+mosaic: 1
+mixup: 0
+copy_paste: 0
+'''
+
+
+
+# The parameters below are the ones I got after changing how many previous
+#terms to consider and changing parent to weighted
+'''
+lr0: 0.0116
+lrf: 0.01
+momentum: 0.953
+weight_decay: 0.00043
+warmup_epochs: 2.15
+warmup_momentum: 0.726
+warmup_bias_lr: 0.108
+box: 0.0375
+cls: 0.696
+cls_pw: 0.785
+obj: 0.775
+obj_pw: 1.31
+iou_t: 0.2
+anchor_t: 3.8
+fl_gamma: 0
+hsv_h: 0.0162
+hsv_s: 0.648
+hsv_v: 0.445
+degrees: 0
+translate: 0.095
+scale: 0.392
+shear: 0
+perspective: 0
+flipud: 0
+fliplr: 0.5
+mosaic: .819
+mixup: 0
+copy_paste: 0
+'''
