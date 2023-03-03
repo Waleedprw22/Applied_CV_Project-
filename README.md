@@ -6,10 +6,11 @@ Make sure to follow each of these steps in chronological order.
 ```
 git clone https://github.com/ultralytics/yolov5
 ```
+ 
  ```
 pip install -qr requirements.txt  # install dependencies (ignore errors)
 ```
-3.)```
+```
 pip install -q roboflow
 ```
 
