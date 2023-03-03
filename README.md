@@ -6,7 +6,7 @@ Make sure to follow each of these steps in chronological order.
 ```
 git clone https://github.com/ultralytics/yolov5
 ```
- 
+ ****Important to note****: After cloning, I would suggest downloading the files in this repo to replace the ones in the repo above to look into my project/work.
  ```
 pip install -qr requirements.txt  # install dependencies (ignore errors)
 ```
