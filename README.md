@@ -34,6 +34,13 @@ You should then get a link to fill the blanks in the following:
 #project = rf.workspace().project("YOUR PROJECT")
 #dataset = project.version("YOUR VERSION").download("yolov5")
 ```
+Using my data set, you will get the following:
+```
+from roboflow import Roboflow
+rf = Roboflow(api_key="cBniCRCIzhJgOEwoyLSl")
+project = rf.workspace().project("car-detection-onugp")
+dataset = project.version(1).download("yolov5")
+```
 
 Then enter the following: 
 ```
